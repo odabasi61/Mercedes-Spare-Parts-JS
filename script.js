@@ -25,14 +25,14 @@ setInterval(changePic, 5000);
 // shopping side
 const container = document.querySelector(".container");
 
-// const taxRate = 0.18;
-// const shippingPrice = 50;
-// const shippingFreePrice = 15000;
+const taxRate = 0.18;
+const shippingPrice = 50;
+const shippingFreePrice = 15000;
 
 window.addEventListener("load", () => {
-  // localStorage.setItem("taxRate", taxRate);
-  // localStorage.setItem("shippingPrice", shippingPrice);
-  // localStorage.setItem("shippingFreePrice", shippingFreePrice);
+  localStorage.setItem("taxRate", taxRate);
+  localStorage.setItem("shippingPrice", shippingPrice);
+  localStorage.setItem("shippingFreePrice", shippingFreePrice);
   accountTotal();
 });
 
