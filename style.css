@@ -221,13 +221,14 @@ form button {
 .main-total {
   padding: 2rem 5vw;
   font-size: 1.4rem;
-  background-color: rgb(237, 229, 214);
+  background-color: rgb(32, 30, 28);
+  color: white;
 }
 
 .subtotal {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid black;
+  border-top: 1px solid white;
   padding-bottom: 1rem;
 }
 

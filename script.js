@@ -1,9 +1,6 @@
 "use strict";
 
 // change the display image
-window.addEventListener("load", function () {
-  changePic();
-});
 
 const myMercedes = document.getElementById("my-mercedes");
 let randomPic = 0;
@@ -34,6 +31,7 @@ window.addEventListener("load", () => {
   localStorage.setItem("shippingPrice", shippingPrice);
   localStorage.setItem("shippingFreePrice", shippingFreePrice);
   accountTotal();
+  changePic();
 });
 
 container.addEventListener("click", function (e) {
